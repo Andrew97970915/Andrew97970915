@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  transform: translate(-50%, -50);
+
+  font-size: 50px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 1;
+  font-family: "Open Sans", sans-serif;
+
+  animation-name: h1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+@keyframes h1 {
+  12.5% {
+    color: black;
+  }
+  25% {
+    color: rgb(206, 66, 66);
+  }
+  37.5% {
+    color: orangered;
+  }
+  50% {
+    color: rgb(230, 230, 139);
+  }
+  62.5% {
+    color: rgb(107, 181, 107);
+  }
+  75% {
+    color: rgb(106, 106, 194);
+  }
+  87.5% {
+    color: #9356be;
+  }
+  100% {
+    color: rgb(80, 53, 80);
+  }
+}
+a {
+  text-indent: none;
+}
+.backbg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
