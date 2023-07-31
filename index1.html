@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <!--中文字體-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&family=Open+Sans:ital,wght@1,300;1,400&family=Sarabun&display=swap"
+      rel="stylesheet"
+    />
+    <!--英文字體-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:ital,wght@1,300;1,400&family=Sarabun&display=swap"
+      rel="stylesheet"
+    />
+    <!--Bootstrap CSS外部-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!--Bootstrap JS外部-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!--標準head-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyEXP推遊網</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!--開放icon程式碼-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <!--title icon-->
+    <link rel="icon" href="./photo/favicon.ico" />
+  </head>
+  <body>
+    <!--Nav 導覽列-->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MyEXP</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="">主頁</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.leagueoflegends.com/zh-tw/"
+                  target="_blank"
+                  >League of Legends</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  更多消息
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://signup.leagueoflegends.com/zh-tw/signup/redownload?page_referrer=index"
+                      target="_blank"
+                      >遊戲下載</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://signup.leagueoflegends.com/zh-tw/signup/index"
+                      target="_blank"
+                      >相關帳號註冊</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.op.gg/"
+                      target="_blank"
+                      >《OPGG攻略網》</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://lol.moa.tw/"
+                      target="_blank"
+                      >《League of Legends戰績網》</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="RWDNAV.html">Vue作品</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--背景圖片-->
+    <div class="image"></div>
+    <!--大標、副標、連結-->
+    <section id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12" align="center">
+            <h1 class="display-4">
+              沒樂趣嗎?那就來點英雄聯盟!多人鬥塔讓你愛不釋手!
+            </h1>
+            <p class="lead">
+              不管是充滿防禦的坦克、好戰的鬥士、爆炸性輸出的法師與射手以及給予支援的輔助，英雄聯盟都能滿足這一切
+              !
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--自我簡介-->
+    <section id="second">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 text-center">
+            <div class="myself"><h3>- 自我介紹 -</h3></div>
+            <div class="row">
+              <div class="col-md-4 text-center">
+                <div class="outimg">
+                  <img src="./photo/myPortrait.jpg" alt="myPortrait" />
+                </div>
+                <div class="texth5"><h5>頁面編輯 Andrew</h5></div>
+              </div>
+              <div class="col-md-8 text-left">
+                <p class="lead">
+                  大家好，我是Andrew，新北人，是一個喜愛打DOTA
+                  GAME，也喜歡大家聚在一起，有種熱鬧氛圍的人。<br />
+                </p>
+                <p>
+                  英雄聯盟是我從S3開始打到現在S13的遊戲，陪我走過許多時光也讓我交到蠻多朋友，如果你也喜歡競技，不如現在就加入!
+                </p>
+                <p>
+                  高中到大學我接觸的都是商科，一直到畢業後輾轉多項工作，最後下定決心開始進修網頁前端，才有了現在這個頁面。
+                </p>
+                <p>
+                  如果你也是正在這條路上奮鬥的人，那祝你，也祝我能越來越強，且順利的在未來找到屬於自己的目標!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--照片區塊-->
+    <section id="latest">
+      <!--照片1-->
+      <div class="container">
+        <div class="row"></div>
+        <div class="col-md-12 text-center"></div>
+        <h3 align="center">- 專精射手的我 -</h3>
+        <div class="row">
+          <div class="col-md-4 text-left">
+            <div class="outer">
+              <div class="upper">
+                <img src="./photo/1Vayne.png" alt="Vayne" />
+                <div class="innertext">
+                  <a
+                    href="https://www.leagueoflegends.com/zh-tw/champions/vayne/"
+                    target="_blank"
+                    ><span>官方簡介</span></a
+                  >
+                  <h4 class="textlol">暗夜獵人-汎</h4>
+                </div>
+              </div>
+            </div>
+            <div class="lower">
+              <h3>初出茅廬</h3>
+              <span
+                ><i class="fa-solid fa-star"
+                  >入坑後的第一支角色 也是最愛之一</i
+                ></span
+              ><br />
+              <span
+                ><i class="fa-brands fa-youtube"
+                  ><a
+                    href="https://www.youtube.com/watch?v=kXB12i1ftRw&ab_channel=TheCarry"
+                    target="_blank"
+                    >Im Gosu Montage - Best Vayne Plays</a
+                  ></i
+                ></span
+              ><br />
+              <a
+                href="https://www.youtube.com/watch?v=tW6eHnIzpQM&ab_channel=LeagueofLegends"
+                target="_blank"
+                ><span
+                  ><i class="fa-solid fa-bolt">2021黎明之前 造型故事片</i></span
+                ></a
+              >
+            </div>
+          </div>
+          <!--照片2-->
+          <div class="col-md-4 text-left">
+            <div class="outer">
+              <div class="upper">
+                <img src="./photo/2jhin.png" alt="jhin" />
+                <div class="innertext">
+                  <a
+                    href="https://www.leagueoflegends.com/zh-tw/champions/jhin/"
+                    target="_blank"
+                    ><span>官方簡介</span></a
+                  >
+                  <h4 class="textlol">炫技大師-燼</h4>
+                </div>
+              </div>
+            </div>
+            <div class="lower">
+              <h3>游刃有餘</h3>
+              <span><i class="fa-solid fa-star">扭腰擺臀 4槍送你回溫泉</i></span
+              ><br />
+              <span
+                ><i class="fa-brands fa-youtube"
+                  ><a
+                    href="https://www.youtube.com/watch?v=oWPm-W_uAiY&ab_channel=LOLTIME"
+                    target="_blank"
+                    >JHIN MONTAGE 2023 - GOD PLAYS</a
+                  ></i
+                ></span
+              ><br />
+              <a
+                href="https://www.youtube.com/watch?v=B4-BgDEy2AE&ab_channel=LeagueofLegends"
+                target="_blank"
+                ><span><i class="fa-solid fa-bolt">官方角色形象片</i></span></a
+              >
+            </div>
+          </div>
+          <!--照片3-->
+          <div class="col-md-4 text-left">
+            <div class="outer">
+              <div class="upper">
+                <img src="./photo/3jinx.png" alt="jinx" />
+                <div class="innertext">
+                  <a
+                    href="https://www.leagueoflegends.com/zh-tw/champions/jinx/"
+                    target="_blank"
+                    ><span>官方簡介</span></a
+                  >
+                  <h4 class="textlol">暴走重砲-吉茵珂絲</h4>
+                </div>
+              </div>
+            </div>
+            <div class="lower">
+              <h3>熟能生巧</h3>
+              <span><i class="fa-solid fa-star">角色如其名 瘋狂又好玩</i></span
+              ><br />
+              <span
+                ><i class="fa-brands fa-youtube"
+                  ><a
+                    href="https://www.youtube.com/watch?v=6WrSQB-pANM&ab_channel=KosiorLoLs"
+                    target="_blank"
+                    >JINX MONTAGE 2023 - BEST MOMENTS</a
+                  ></i
+                ></span
+              ><br />
+              <a
+                href="https://www.youtube.com/watch?v=0nlJuwO0GDs&ab_channel=LeagueofLegends"
+                target="_blank"
+                ><span><i class="fa-solid fa-bolt">官方角色形象片</i></span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--E-mail-->
+    <section id="email">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 text-center">
+            如果你也是英雄聯盟的愛好者亦或是也想體驗在峽谷廝殺
+            <br />何不mail給我讓我知道你呢?讓我們一起在這個世界再創傳奇!
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 offset-md-2 text-left">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                >Default</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+            <a class="btn btn-primary btn-lg" href="#">提交</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="imgbg-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-left">
+            <img class="author" src="./photo/LOGOexp1.png" width="150" />
+            <p class="author">Andrew Lee 2023 &#169;</p>
+          </div>
+          <div class="col-md-4 text-left">
+            <h4>使用者交流</h4>
+            <ul>
+              <li><a href="#">網頁建議</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-left">
+            <h4>個人資訊</h4>
+            <p>
+              <a href="https://www.facebook.com/jinlou.lee" target="_blank"
+                ><span><i class="fa-brands fa-facebook"></i></span
+              ></a>
+              <a href="https://www.instagram.com/lou_0915/" target="_blank"
+                ><span><i class="fa-brands fa-instagram"></i></span
+              ></a>
+              <br />電話 : 0958-777-888 <br />E-mail :
+              <a href="mailto:a0958777888.@gmail.com">a0958777888.@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
